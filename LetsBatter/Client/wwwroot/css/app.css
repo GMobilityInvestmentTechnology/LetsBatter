@@ -1,7 +1,13 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@font-face {
+    font-family: 'Iceland-Regular';
+    src: url('open-iconic/font/fonts/Iceland-Regular.ttf') format('truetype'), 
+         url('open-iconic/font/fonts/Iceland-Regular.woff') format('woff'), 
+         url('open-iconic/font/fonts/Iceland-Regular.woff2') format('woff2');
+}
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Iceland-Regular','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1:focus {
