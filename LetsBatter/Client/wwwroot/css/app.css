@@ -6,6 +6,35 @@
          url('open-iconic/font/fonts/Iceland-Regular.woff2') format('woff2');
 }
 
+
+.border-black{
+    border: 2px solid black;
+}
+
+.border-blue{
+    border: 2px solid blue;
+}
+
+.border-pink{
+    border: 2px solid pink;
+}
+
+.border-green{
+    border: 2px solid green;
+}
+
+.border-white{
+    border: 2px solid white;
+}
+
+.border-yellow{
+    border: 2px solid yellow;
+}
+
+.border-red{
+    border: 2px solid red;
+}
+
 html, body {
     font-family: 'Iceland-Regular','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
