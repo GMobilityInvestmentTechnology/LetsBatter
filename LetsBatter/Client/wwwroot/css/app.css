@@ -7,17 +7,24 @@
 }
 
 
+.form-section {
+    background-image: url('../images/NewFolder1/groupofpeople.jpg');
+    position: relative;
+    width: 100vw;
+    background-position: center;
+    color: white;
+}
+
 .donate-banner {
     background-image: url('../images/NewFolder1/1.jpg');
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-position: center;
     color: white;
 }
 
 .login-div {
-    background-image: url('../images/NewFolder/bg.jpg');
     position: relative;
     width: 100vw;
     height: 100vh;
