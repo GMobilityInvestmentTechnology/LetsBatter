@@ -1,0 +1,46 @@
+﻿@page "/listings"
+<div class="container my-5 p-0">
+    <div class="mb-4">
+        <h2>Heyy! __________, </h2>
+    </div>
+    <div class="d-flex gap-5 mb-5 align-items-center">
+        <h3 class="">Your Listings</h3>
+        <a class="bg-silver px-4 py-3 d-flex align-items-center gap-3 text-decoration-none" style="border-radius:50px">
+            <i class="fa fa-plus"></i>
+            Add a New Listing
+        </a>
+    </div>
+    <div class="mb-4 w-100" style="border-bottom: 1px solid black">
+        <ul class="nav nav-underline d-flex gap-3">
+          <li class="nav-item bg-info bg-gradient">
+                <a class="nav-link text-black active" aria-current="page" href="#">All listings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Approved</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link text-black" href="#">Pending</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link text-black" href="">Rejected</a>
+          </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="border-silver p-2 col-3">
+            <div class="col-12" style="height: 20em; background-color: rgba(0,0,0,0.1)"></div>
+            <h3>Texas Instruments Calculator - TI-81</h3>
+            <div class="d-flex justify-content-between">
+                <span class="bg-success py-1 px-3" style="border-radius: 3px">Approved</span>
+                <select class="bg-transparent w-auto" style="border:none; ">
+                    <option></option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+
+}

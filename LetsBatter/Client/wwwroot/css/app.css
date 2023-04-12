@@ -6,7 +6,43 @@
          url('open-iconic/font/fonts/Iceland-Regular.woff2') format('woff2');
 }
 
-.bg-silver{
+.recent-kick {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    width: 15em;
+    height: 15em;
+    background-color: silver;
+}
+
+.brand-spotlight {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.border-silver {
+    border: 1px solid silver;
+}
+
+.recents-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.book-panel {
+    background-image: url("../images/adhoc/book.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 6px solid white;
+    width: 15%;
+}
+
+.bg-silver {
     background-color: silver;
 }
 
@@ -52,6 +88,47 @@
     z-index:10;
     background-position: center;
     color: white;
+}
+
+.banner-right {
+    background-image: url("../images/home/banner02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom-2 {
+    background-image: url("../images/auth/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 43vh;
+    border-radius: 30px
+}
+
+.home-banner {
+    background-image: url("../images/home/banner01.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 78vh;
+    width: 100%;
+}
+.home-banner-2 {
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+
+.home-banner-3 {
+    background-image: url("../images/home/00.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
 }
 
 .about-banner {
