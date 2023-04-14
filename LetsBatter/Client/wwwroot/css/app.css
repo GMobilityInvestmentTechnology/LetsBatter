@@ -6,6 +6,20 @@
          url('open-iconic/font/fonts/Iceland-Regular.woff2') format('woff2');
 }
 
+.add-listingbtn{
+    background-color: rgba(0,0,0,0.88);
+}
+
+.add-listingbtn:hover{
+    background-color: black;
+    color: black;
+    cursor: pointer;
+}
+
+.add-listingbtn:active{
+    background-color: deepskyblue;
+}
+
 .recent-kick {
     background-position: center;
     background-size: cover;
