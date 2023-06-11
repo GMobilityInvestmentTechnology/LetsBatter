@@ -23,20 +23,15 @@ namespace LetsBatter.Server.Controllers
             return dbContext.Products;
         }
 
-        [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<Product> PostProduct(Product product)
-        {
-            if(!ModelState.IsValid)
-                return BadRequest(ModelState);
+        //  [HttpPost]
+        //  [ProducesResponseType(StatusCodes.Status200OK)]
+        //  [ProducesResponseType(StatusCodes.Status201Created)]
+        //  [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //  [ProducesResponseType(StatusCodes.Status404NotFound)]
+        //  public ActionResult<Product> PostProduct(Product product)
+        //  {
+        //s
 
-            dbContext.Products.Add(product);
-            dbContext.SaveChanges();
-            return Ok(product);
-
-        }
+        //  }
     }
 }
